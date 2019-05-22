@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+  <section class="content-section">
+    <div class="container">
+      <p class="content__title">Накорми котэ</p>
+      <div class="catalog-block">
+        <ul class="catalog__list">
+          <li class="catalog__col">
+            <div class="catalog__item">
+              <div class="catalog__bcg" onclick="addToCart(this)">
+                <div class="catalog__item-heading-group">
+                  <p class="catalog__intro-title">Заморское лакомство</p>
+                  <div class="catalog__item-heading">Вкусняха</div>
+                  <p class="catalog__subtitle">с потрохами</p>
+                </div>
+                <div class="catalog__item-details">
+                  <p>10 порций</p>
+                  <p>мышь в подарок</p>
+                </div>
+                <div class="catalog__item-img-wrapper">
+                  <img src="images/cat-img.png" width="212" height="272" alt="Кот">
+                </div>
+                <div class="catalog__item-weight">
+                  <span class="catalog__number">0,5</span>
+                  <span class="catalog__unit">кг</span>
+                </div>
+              </div>
+              <div class="catalog__item-description">
+                <p class="catalog__text catalog__text--default">Чего сидишь? Порадуй пушистейшего, <a class="catalog__buy" onclick="addToCart(this)">купи.</a></p>
+                <p class="catalog__text catalog__text--selected">Потрошков много не бывает!</p>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__col">
+            <div class="catalog__item">
+              <div class="catalog__bcg" onclick="addToCart(this)">
+                <div class="catalog__item-heading-group">
+                  <p class="catalog__intro-title">Заморское лакомство</p>
+                  <div class="catalog__item-heading">Вкусняха</div>
+                  <p class="catalog__subtitle">с рыбой</p>
+                </div>
+                <div class="catalog__item-details">
+                  <p>40 порций</p>
+                  <p>2 мыши в подарок</p>
+                </div>
+                <div class="catalog__item-img-wrapper">
+                  <img src="images/cat-img.png" width="212" height="272" alt="Кот">
+                </div>
+                <div class="catalog__item-weight">
+                  <span class="catalog__number">2</span>
+                  <span class="catalog__unit">кг</span>
+                </div>
+              </div>
+              <div class="catalog__item-description">
+                <p class="catalog__text catalog__text--default">Чего сидишь? Порадуй пушистейшего, <a class="catalog__buy" onclick="addToCart(this)">купи.</a></p>
+                <p class="catalog__text catalog__text--selected">Головы щучьи с зеленью,да свежайшая сёмгушка</p>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__col">
+            <div class="catalog__item catalog__item--disabled">
+                <div class="catalog__bcg">
+                  <div class="catalog__item-heading-group">
+                    <p class="catalog__intro-title">Заморское лакомство</p>
+                    <div class="catalog__item-heading">Вкусняха</div>
+                    <p class="catalog__subtitle">с курой в подливе</p>
+                  </div>
+                  <div class="catalog__item-details">
+                    <p>40 порций</p>
+                    <p>5 мышей в подарок</p>
+                    <p>заказчик доволен</p>
+                  </div>
+                  <div class="catalog__item-img-wrapper">
+                    <img src="images/cat-img.png" width="212" height="272" alt="Кот">
+                  </div>
+                  <div class="catalog__item-weight">
+                    <span class="catalog__number">5</span>
+                    <span class="catalog__unit">кг</span>
+                  </div>
+                </div>
+              <div class="catalog__item-description">
+                <p class="catalog__text catalog__text--disabled">Пичалька ( , с курой закончился.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>
+
