@@ -237,8 +237,7 @@
   color: $text-gray;
   margin: 0;
   margin-bottom: 3px;
-  position: relative;
-  z-index: 2;
+
 
   @media (min-width: 1280px) {
     font-size: 16px;
@@ -269,13 +268,6 @@
   line-height: 1.2;
   font-weight: 600;
   color: #000000;
-}
-
-.catalog__intro-title,
-.catalog__item-heading,
-.catalog__subtitle {
-  position: relative;
-  z-index: 2;
 }
 
 .catalog__item-details {

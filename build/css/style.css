@@ -568,7 +568,7 @@ img {
   color: #ffffff;
   text-align: center;
   font-weight: 300;
-  margin-bottom: 25px; }
+  margin-bottom: 20px; }
 
 .catalog-block {
   -webkit-box-flex: 0;
@@ -764,9 +764,7 @@ img {
   font-weight: 400;
   color: #666666;
   margin: 0;
-  margin-bottom: 3px;
-  position: relative;
-  z-index: 2; }
+  margin-bottom: 3px; }
   @media (min-width: 1280px) {
     .catalog__intro-title {
       font-size: 16px; } }
@@ -792,12 +790,6 @@ img {
   line-height: 1.2;
   font-weight: 600;
   color: #000000; }
-
-.catalog__intro-title,
-.catalog__item-heading,
-.catalog__subtitle {
-  position: relative;
-  z-index: 2; }
 
 .catalog__item-details {
   -webkit-box-flex: 1;
