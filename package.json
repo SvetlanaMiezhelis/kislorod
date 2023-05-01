@@ -5,18 +5,18 @@
   "description": "Личный проект",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
-    "autoprefixer": "^7.2.6",
+    "autoprefixer": "^10.4.14",
     "browser-sync": "2.23.x",
     "gulp": "3.9.x",
     "gulp-imagemin": "^4.1.0",
     "gulp-plumber": "1.2.x",
-    "gulp-postcss": "7.0.x",
+    "gulp-postcss": "9.0.x",
     "gulp-posthtml": "^3.0.4",
     "gulp-sass": "3.1.x",
     "gulp-svgstore": "^6.1.1",
     "posthtml-include": "^1.1.0",
     "run-sequence": "^2.2.1",
-    "stylelint": "8.4.x",
+    "stylelint": "15.6.x",
     "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
