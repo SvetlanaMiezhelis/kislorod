@@ -16,7 +16,7 @@
     "gulp-svgstore": "^6.1.1",
     "posthtml-include": "^1.1.0",
     "run-sequence": "^2.2.1",
-    "stylelint": "8.4.x",
+    "stylelint": "15.10.x",
     "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
